@@ -45,7 +45,9 @@ var camera = new THREE.PerspectiveCamera( 45, window.innerWidth/window.innerHeig
 camera.position.set(-175, 115, 5);
 
 console.log("Create the renderer");
-const renderer = new THREE.WebGL1Renderer();
+const canvas = document.createElement('canvas');
+const context = canvas.getContext('webgl2');
+const renderer = new THREE.WebGLRenderer({ canvas, context });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -274,7 +276,7 @@ function createPlanet(planetName, size, position, tilt, texture, bump, ring, atm
   const orbitPath = new THREE.EllipseCurve(
     0, 0,            // ax, aY
     position, position, // xRadius, yRadius
-    0, 2 * Math.PI,   // aStartAngle, aEndAngle
+    0, 2 * Math.PI,     // aStartAngle, aEndAngle
     false,            // aClockwise
     0                 // aRotation
 );
