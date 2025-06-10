@@ -24,7 +24,7 @@ import earthMoonTexture from '/images/moonmap.jpg';
 import earthMoonBump from '/images/moonbump.jpg';
 import marsTexture from '/images/marsmap.jpg';
 import marsBump from '/images/marsbump.jpg';
-import jupiterTexture from '/images/jupiter.jpg';
+import jupiterTexture from '/images/jupiterIo.jpg';
 import ioTexture from '/images/jupiterIo.jpg';
 import europaTexture from '/images/jupiterEuropa.jpg';
 import ganymedeTexture from '/images/jupiterGanymede.jpg';
@@ -446,7 +446,7 @@ const earthMoon = [{
 // Mars' moons with path to 3D models (phobos & deimos)
 const marsMoons = [
   {
-    modelPath: '/images/mars/phobos.glb',
+    modelPath: '/images/mars/deimos.glb',
     scale: 0.1,
     orbitRadius: 5,
     orbitSpeed: 0.002 * settings.accelerationOrbit,
