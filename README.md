@@ -1,12 +1,72 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 My React App
 
-Currently, two official plugins are available:
+This is a React.js application created using modern development practices. Follow the instructions below to run this project on your local system.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Prerequisites
 
-## Expanding the ESLint configuration
+Make sure you have the following installed:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [Git](https://git-scm.com/)
+
+## 📁 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+````
+
+### 2. Navigate into the Project Directory
+
+```bash
+cd your-repo-name
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the Development Server
+
+```bash
+npm run dev
+```
+
+### 5. Open the App in Your Browser
+
+```
+http://localhost:5173
+```
+
+> **Note:** This project uses **Vite** as the development server, which by default runs on port `5173`.
+
+---
+
+## 🗂️ Project Structure
+
+```plaintext
+your-repo-name/
+├── public/
+├── src/
+│   ├── asteroids/
+│   ├── images/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this project and open a pull request.
+
+---
+
