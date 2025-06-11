@@ -15,13 +15,13 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/InduRani11/Solar.git
 ````
 
 ### 2. Navigate into the Project Directory
 
 ```bash
-cd your-repo-name
+cd Solar
 ```
 
 ### 3. Install Dependencies
